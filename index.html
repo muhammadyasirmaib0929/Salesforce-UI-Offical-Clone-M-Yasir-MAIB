@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="logo image.svg" type="image/x-icon">
+    <title>Salesforce UI</title>
+</head>
+<body class="bg-white">
+
+<!-- nav starts here -->
+<nav class="w-full bg-white flex items-center justify-between px-4 md:px-10 py-3 fixed top-0 left-0 z-50 shadow-md">
+    <!-- mobile menu icon -->
+    <div class="text-3xl font-medium md:hidden">
+        <a href="#">&#8801;</a>
+    </div>
+
+    <!-- logo -->
+    <div class="w-14 h-14 md:w-24 md:h-24 cursor-pointer">
+        <img class="w-full h-full" src="logo image.svg" alt="Logo">
+    </div>
+
+    <!-- main menu -->
+    <ul class="hidden md:flex text-lg font-medium space-x-6">
+        <li class="hover:text-blue-500 cursor-pointer">Products</li>
+        <li class="hover:text-blue-500 cursor-pointer">Industries</li>
+        <li class="hover:text-blue-500 cursor-pointer">Customers</li>
+        <li class="hover:text-blue-500 cursor-pointer">Learning</li>
+        <li class="hover:text-blue-500 cursor-pointer">Support</li>
+        <li class="hover:text-blue-500 cursor-pointer flex items-center gap-1">
+            More <i class="ri-arrow-down-s-line"></i>
+        </li>
+    </ul>
+
+    <!-- contact info -->
+    <div class="hidden md:flex flex-col text-center text-sm font-light">
+        <p class="cursor-pointer hover:text-blue-500 underline">Contact Us</p>
+        <p>+65 6302 5500 (Intl)</p>
+    </div>
+
+    <!-- icons -->
+    <div class="flex items-center space-x-2 md:space-x-3 text-lg font-medium">
+        <p class="p-1 px-3 rounded-full hover:bg-blue-100 hover:text-blue-500 cursor-pointer"><i class="ri-search-line"></i></p>
+        <p class="hidden md:flex p-1 px-3 rounded-full hover:bg-blue-100 hover:text-blue-500 cursor-pointer"><i class="ri-global-line"></i></p>
+        <p class="p-1 px-3 rounded-full hover:bg-blue-100 hover:text-blue-500 cursor-pointer"><i class="ri-user-fill"></i> Login</p>
+    </div>
+
+    <!-- CTA button -->
+    <div>
+        <p class="px-6 py-2 rounded-xl bg-green-700 text-white font-medium cursor-pointer hover:bg-green-900">Try for free</p>
+    </div>
+</nav>
+<!-- nav ends here -->
+
+<!-- header starts here -->
+<div class="mt-[100px] w-full">
+    <!-- desktop header -->
+    <div class="hidden md:flex items-center justify-between bg-blue-900 p-3 text-white flex-wrap gap-4">
+        <div class="w-16 h-8 flex-shrink-0">
+            <img class="w-full h-full object-contain" src="header image.webp" alt="">
+        </div>
+        <h2 class="text-lg font-bold flex-1 text-center md:text-left min-w-[200px]">
+            Witness the power of Agentforce at upcoming Agentforce World Tour events in ASEAN
+        </h2>
+        <p class="text-sm font-bold underline cursor-pointer flex-shrink-0">Register now</p>
+    </div>
+
+    <!-- mobile header -->
+    <div class="md:hidden flex flex-col items-center bg-blue-900 p-4 text-white text-center space-y-2">
+        <p>Learn why Gartner recognized Salesforce as the world's #1 leader in Customer Data Platforms (CDP)</p>
+        <p class="underline cursor-pointer">Get the report</p>
+    </div>
+</div>
+
+<!-- page one starts here -->
+<div class="flex flex-col md:flex-row w-full bg-blue-300 md:bg-transparent">
+    <!-- left content -->
+    <div class="md:w-1/2 flex flex-col justify-center p-4 md:p-10">
+        <!-- desktop text -->
+        <div class="hidden md:block">
+            <h1 class="text-5xl font-bold mb-5"><span class="text-blue-500">Grow faster</span> and work smarter.</h1>
+            <p class="text-2xl font-light mb-6">
+                Start simply with Starter Suite, the all-in-one CRM for small business. Then scale endlessly with autonomous AI agents, unified data, and CRM apps together on one integrated platform. And connect with customers in a whole new way.
+            </p>
+        </div>
+
+        <!-- mobile text -->
+        <div class="md:hidden text-center space-y-4">
+            <h1 class="text-4xl font-bold text-blue-900">Try Salesforce Starter Suite for free.</h1>
+            <p class="text-xl font-light text-black">
+                Unit marketing, sales, and service in a single app. Try Salesforce Starter Suite today. Nothing to install. No credit card required.
+            </p>
+            <div class="flex flex-col space-y-3">
+                <button class="bg-blue-500 text-white font-medium py-2 px-8 rounded hover:bg-blue-900">Try for free</button>
+                <button class="bg-white text-blue-500 border-2 border-blue-500 font-medium py-2 px-8 rounded hover:bg-blue-100 hover:border-blue-800 hover:text-blue-800">Watch Demo</button>
+            </div>
+        </div>
+
+        <!-- desktop buttons -->
+        <div class="hidden md:flex space-x-4 mt-6">
+            <button class="bg-blue-500 text-white font-medium py-3 px-10 rounded hover:bg-blue-900">Try for free</button>
+            <button class="bg-white text-blue-500 border-2 border-blue-500 font-medium py-3 px-10 rounded hover:bg-blue-100 hover:border-blue-800 hover:text-blue-800">Watch Demo</button>
+        </div>
+    </div>
+
+    <!-- right image -->
+    <div class="w-full md:w-1/2 h-64 md:h-[600px]">
+        <img class="w-full h-full object-cover" src="page image.webp" alt="Page image">
+    </div>
+</div>
+<!-- page one ends here -->
+
+<!-- page two starts here -->
+<div class="flex flex-col items-center text-center w-full py-10 bg-gray-50">
+    <h1 class="text-3xl md:text-4xl font-bold text-blue-900 mb-12">Learn what Salesforce products can do for you.</h1>
+
+    <div class="flex flex-wrap justify-center md:justify-around gap-6 w-full px-4">
+        <!-- card 1 -->
+        <div class="bg-white shadow-2xl rounded-xl overflow-hidden w-full sm:w-64 md:w-72 lg:w-80 flex flex-col">
+            <img class="w-full h-40 object-cover" src="card-1.webp" alt="Small Business">
+            <div class="p-4 flex flex-col flex-grow">
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer mb-2">Small Business</h3>
+                <p class="text-black mb-4 flex-grow">Sell smarter and provide support faster in a single app.</p>
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer"><u>Learn more</u></h3>
+            </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="bg-white shadow-2xl rounded-xl overflow-hidden w-full sm:w-64 md:w-72 lg:w-80 flex flex-col">
+            <img class="w-full h-40 object-cover" src="card-2.webp" alt="Sales Cloud">
+            <div class="p-4 flex flex-col flex-grow">
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer mb-2">Sales Cloud</h3>
+                <p class="text-black mb-4 flex-grow">Close more deals and speed up growth with the #1 CRM.</p>
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer"><u>Learn more</u></h3>
+            </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="bg-white shadow-2xl rounded-xl overflow-hidden w-full sm:w-64 md:w-72 lg:w-80 flex flex-col">
+            <img class="w-full h-40 object-cover" src="card-3.webp" alt="Service Cloud">
+            <div class="p-4 flex flex-col flex-grow">
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer mb-2">Service Cloud</h3>
+                <p class="text-black mb-4 flex-grow">Make customers happy faster and build loyalty with Service Cloud.</p>
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer"><u>Learn more</u></h3>
+            </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="bg-white shadow-2xl rounded-xl overflow-hidden w-full sm:w-64 md:w-72 lg:w-80 flex flex-col">
+            <img class="w-full h-40 object-cover" src="card-4.webp" alt="Marketing Cloud">
+            <div class="p-4 flex flex-col flex-grow">
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer mb-2">Marketing Cloud</h3>
+                <p class="text-black mb-4 flex-grow">Build customer relationships for life with data-first digital marketing.</p>
+                <h3 class="font-bold text-blue-900 hover:text-blue-500 cursor-pointer"><u>Learn more</u></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-12">
+        <p class="py-3 px-8 rounded-lg border-2 border-blue-500 bg-white text-blue-500 font-medium text-lg cursor-pointer hover:bg-slate-200 hover:border-blue-900 hover:text-blue-900">
+            View all our products
+        </p>
+    </div>
+</div>
+<!-- page two ends here -->
+
+<!-- page three starts here -->
+<div class="flex flex-col items-center w-full py-16 px-4 md:px-10">
+    <h1 class="text-4xl md:text-5xl font-bold text-blue-900 text-center mb-8 md:mb-12">We bring companies and customers together</h1>
+    <p class="text-lg md:text-2xl text-black text-center max-w-3xl mb-10">
+        Salesforce is the worlds most trusted customer relationship management (CRM) platform. We help your marketing, sales, commerce, service, and IT teams work as one from anywhere — so you can keep your customers happy everywhere.
+    </p>
+
+    <div class="flex flex-col sm:flex-row gap-4 md:gap-6 mb-12">
+        <button class="bg-blue-600 text-white py-3 px-8 rounded-lg font-medium hover:bg-blue-900 hover:text-blue-100">Start free trial</button>
+        <button class="bg-white text-blue-600 border-2 border-blue-600 py-3 px-8 rounded-lg font-medium hover:bg-blue-100 hover:text-blue-900 hover:border-blue-900">Watch demos</button>
+    </div>
+</div>
+<!-- page three ends here -->
+
+<!-- page four starts here -->
+<div class="flex flex-col items-center w-full py-16 px-4 md:px-10 bg-gray-50">
+    <h1 class="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-8">Learn valuable skills for free, with Trailhead.</h1>
+    <p class="text-base md:text-lg text-black text-center max-w-3xl mb-12">
+        Follow guided learning paths and get hands-on to learn Salesforce, digital, and soft skills from anywhere.
+    </p>
+
+    <div class="flex flex-wrap justify-center gap-6 w-full mb-12">
+        <!-- card 1 -->
+        <div class="bg-white shadow-2xl rounded-xl w-full sm:w-72 md:w-80 p-4 flex flex-col items-center">
+            <img class="w-32 h-32 mb-6" src="card 2 image 1.webp" alt="Module 1">
+            <p class="bg-blue-200 text-blue-800 text-sm rounded-xl px-2 py-1 mb-4 self-start">Module</p>
+            <h2 class="text-2xl md:text-3xl font-bold text-blue-900 mb-4 text-center">Salesforce values: Quick look</h2>
+            <p class="text-lg mb-6 text-center">Learn how Salesforce helps your business build stronger relationships with your customers.</p>
+            <h3 class="font-medium text-blue-900 hover:underline cursor-pointer">Start learning</h3>
+        </div>
+
+        <!-- card 2 -->
+        <div class="bg-white shadow-2xl rounded-xl w-full sm:w-72 md:w-80 p-4 flex flex-col items-center">
+            <img class="w-32 h-32 mb-6" src="card 2 image2.webp" alt="Module 2">
+            <p class="bg-blue-200 text-blue-800 text-sm rounded-xl px-2 py-1 mb-4 self-start">Module</p>
+            <h2 class="text-2xl md:text-3xl font-bold text-blue-900 mb-4 text-center">Salesforce CRM</h2>
+            <p class="text-lg mb-6 text-center">Learn how to use customer relationship management (CRM) software to grow your business.</p>
+            <h3 class="font-medium text-blue-900 hover:underline cursor-pointer">Start learning</h3>
+        </div>
+
+        <!-- card 3 -->
+        <div class="bg-white shadow-2xl rounded-xl w-full sm:w-72 md:w-80 p-4 flex flex-col items-center">
+            <img class="w-32 h-32 mb-6" src="card 2 image 3.webp" alt="Module 3">
+            <p class="bg-blue-200 text-blue-800 text-sm rounded-xl px-2 py-1 mb-4 self-start">Module</p>
+            <h2 class="text-2xl md:text-3xl font-bold text-blue-900 mb-4 text-center">Sales Cloud Basics</h2>
+            <p class="text-lg mb-6 text-center">Grow your business, boost productivity, and make smart decisions with Sales Cloud.</p>
+            <h3 class="font-medium text-blue-900 hover:underline cursor-pointer">Start learning</h3>
+        </div>
+    </div>
+
+    <p class="text-sm md:text-lg px-6 py-3 rounded-lg font-medium bg-gray-100 text-blue-600 border-2 border-blue-600 cursor-pointer hover:bg-blue-100 hover:text-blue-900 hover:border-blue-900">
+        Learn more <i class="ri-arrow-right-up-box-line"></i>
+    </p>
+</div>
+<!-- page four ends here -->
+   
+<!-- page five starts here -->
+<div class="flex flex-col items-center w-full py-16 px-4 md:px-10">
+    <h1 class="text-blue-900 font-bold text-2xl md:text-4xl text-center mb-16 md:mb-32">
+        Over 150,000 companies, both big and small, are growing their business with Salesforce.
+    </h1>
+    <button class="px-6 py-3 text-lg md:text-xl font-medium text-blue-600 bg-gray-100 border-2 border-blue-600 rounded-lg hover:bg-blue-100 hover:text-blue-900 hover:border-blue-900">
+        View all customers
+    </button>
+</div>
+<!-- page five ends here -->
+
+<!-- page six starts here -->
+<div class="flex flex-col items-center w-full py-16 px-4 md:px-10 gap-6">
+    <div class="flex flex-wrap justify-center gap-4">
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape 1imae.webp" alt="">
+        </div>
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape 2 image.webp" alt="">
+        </div>
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape 3 img.webp" alt="">
+        </div>
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape 4 image.webp" alt="">
+        </div>
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape 5 image.webp" alt="">
+        </div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-4">
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape2 1 image.webp" alt="">
+        </div>
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape2 2 img.webp" alt="">
+        </div>
+        <div class="bg-white shadow-2xl rounded-lg p-2 flex items-center justify-center cursor-pointer">
+            <img class="w-28 md:w-36 object-contain" src="shape2 3img.webp" alt="">
+        </div>
+    </div>
+</div>
+<!-- page six ends here -->
+
+<!-- page seven starts here -->
+<div class="flex flex-col md:flex-row justify-center items-center w-full py-16 px-4 md:px-10 gap-8">
+    <div class="bg-white shadow-2xl rounded-xl flex flex-col md:flex-row max-w-5xl w-full overflow-hidden">
+        <div class="flex flex-col justify-center px-6 md:px-10 py-6 md:py-12">
+            <h1 class="text-xl md:text-4xl text-blue-900 font-medium mb-6">
+                Try Salesforce for free. No credit card required, no software to install.
+            </h1>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <button class="px-6 py-3 md:px-10 md:py-4 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-900 hover:text-blue-100">
+                    Start free trial
+                </button>
+                <button class="px-6 py-3 md:px-10 md:py-4 border-2 border-blue-600 bg-white text-blue-600 rounded-lg font-medium hover:bg-blue-200 hover:text-blue-900 hover:border-blue-900 flex items-center gap-2">
+                    See pricing <i class="ri-arrow-right-up-box-line"></i>
+                </button>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 h-64 md:h-auto overflow-hidden">
+            <img class="w-full h-full object-cover" src="seven page image.webp" alt="">
+        </div>
+    </div>
+</div>
+<!-- page seven ends here -->
+     
+<!-- page eight starts here -->
+<div class="flex flex-col items-center w-full py-16 px-4 md:px-10">
+    <h1 class="text-blue-900 font-bold text-2xl md:text-5xl text-center mb-12">
+        How can we help grow your business?
+    </h1>
+    <div class="flex flex-wrap justify-center gap-4 mb-12">
+        <div class="w-40 h-40 md:w-64 md:h-64 overflow-hidden rounded-lg">
+            <img class="object-cover w-full h-full" src="page-eight 01image.webp" alt="">
+        </div>
+        <div class="w-40 h-40 md:w-64 md:h-64 overflow-hidden rounded-lg">
+            <img class="object-cover w-full h-full" src="page-eight 02image.webp" alt="">
+        </div>
+        <div class="w-40 h-40 md:w-64 md:h-64 overflow-hidden rounded-lg">
+            <img class="object-cover w-full h-full" src="page-eight 03image.webp" alt="">
+        </div>
+        <div class="w-40 h-40 md:w-64 md:h-64 overflow-hidden rounded-lg flex flex-col items-center justify-center">
+            <img class="object-cover w-full h-full" src="page-eight 04image.webp" alt="">
+            <p class="mt-2 text-center text-blue-900 font-medium">Build customer relationships</p>
+        </div>
+    </div>
+    <div class="hidden md:flex justify-around w-full max-w-4xl gap-4">
+        <p class="text-blue-900 font-medium cursor-pointer hover:text-blue-600"><u>Sell faster</u></p>
+        <p class="text-blue-900 font-medium cursor-pointer hover:text-blue-600"><u>Close more deals</u></p>
+        <p class="text-blue-900 font-medium cursor-pointer hover:text-blue-600"><u>Scale service</u></p>
+        <p class="text-blue-900 font-medium cursor-pointer hover:text-blue-600"><u>Build customer relationships</u></p>
+    </div>
+</div>
+<!-- page eight ends here -->
+
+<!-- page nine starts here -->
+<div class="flex flex-col items-center w-full py-16 px-4 md:px-10">
+    <h1 class="text-blue-900 text-3xl md:text-4xl font-bold text-center mb-12 md:mb-20">
+        Our technology helps people create better jobs, lives, companies, and communities.
+    </h1>
+    <div class="flex flex-wrap justify-center gap-6 mb-12">
+        <div class="w-64 h-64 md:w-72 md:h-64 overflow-hidden bg-white shadow-2xl rounded-lg">
+            <img class="w-full h-full object-cover" src="page-nine image-1.png" alt="">
+        </div>
+        <div class="w-64 h-64 md:w-72 md:h-64 overflow-hidden bg-white shadow-2xl rounded-lg">
+            <img class="w-full h-full object-cover" src="page-nine image-02.webp" alt="">
+        </div>
+        <div class="w-64 h-64 md:w-72 md:h-64 overflow-hidden bg-white shadow-2xl rounded-lg">
+            <img class="w-full h-full object-cover" src="page-nine image-3.png" alt="">
+        </div>
+    </div>
+    <div class="hidden md:flex justify-around w-full max-w-5xl gap-8 text-center">
+        <p>Technology given for free or discounted</p>
+        <p>Fortune 100 Best Companies to Work For 2024 <br> (16 years in a row)</p>
+        <p>Fortune Worlds Most Admired Companies 2024</p>
+    </div>
+</div>
+<!-- page nine ends here -->
+
+<!-- page ten starts here -->
+<div class="flex justify-center items-center w-full py-16 px-4 md:px-10">
+    <div class="relative w-full max-w-4xl h-[500px] rounded-xl shadow-2xl overflow-hidden flex items-center justify-center bg-cover bg-center" 
+     style="background-image: url('https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2023/04/pb-hp-footer-mid3-ap.jpg?resize=2048,1270');">
+
+        <div class="flex flex-col items-center bg-white/30 p-6 md:p-12 rounded-lg text-center">
+            <h1 class="text-2xl md:text-3xl font-bold text-blue-900 mb-6">
+                Questions? Well put you on the right path.
+            </h1>
+            <p class="text-black text-base md:text-xl mb-8">
+                Ask about Salesforce products, pricing, implementation, or anything else. Our highly trained reps are standing by, ready to help.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <button class="px-6 py-3 bg-blue-600 text-white rounded-md font-medium hover:bg-blue-900 hover:text-gray-100 flex items-center gap-2">
+                    Contact Us <i class="ri-arrow-right-up-box-line"></i>
+                </button>
+                <button class="px-6 py-3 text-blue-900 rounded-md font-medium hover:text-blue-600 underline">
+                    Editions & pricing
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- page ten ends here -->
+
+<!--footer starts here-->
+<footer class="w-full bg-gray-50 py-12 px-4 md:px-10">
+    <div class="flex flex-col md:flex-row flex-wrap justify-between gap-8">
+        <!-- Logo & Social -->
+        <div class="flex flex-col items-center md:items-start w-full md:w-1/5">
+            <img src="logo image.svg" alt="Salesforce Logo" class="w-28 h-20 object-contain mb-6">
+            <div class="flex gap-3 text-2xl mb-6">
+                <a href="#" aria-label="Facebook"><i class="ri-facebook-box-fill"></i></a>
+                <a href="#" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="#" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+                <a href="#" aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+            </div>
+            <p class="font-medium text-center md:text-left">Call us at +65 6302 5700 (Intl)</p>
+        </div>
+
+        <!-- New to Salesforce -->
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/5">
+            <h2 class="text-black font-bold mb-4 text-center md:text-left">New to Salesforce?</h2>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Why Salesforce</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">What is CRM</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Explore All Products</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">SaaS</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Customer Success</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Product Pricing</a>
+        </div>
+
+        <!-- About Salesforce -->
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/5">
+            <h2 class="text-black font-bold mb-4 text-center md:text-left">About Salesforce</h2>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Our Story</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Careers</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Press <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Blog <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Security & Performance <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Salesforce.org <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Best CRM Software</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Sustainability <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Legal <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Give us your Feedback</a>
+        </div>
+
+        <!-- Popular Links -->
+        <div class="flex flex-col w-full sm:w-1/2 md:w-1/5">
+            <h2 class="text-black font-bold mb-4 text-center md:text-left">Popular Links</h2>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">New release features <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Salesforce Mobile App</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Business App store <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Dreamforce <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">CRM Software</a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Salesforce Plus <i class="ri-arrow-right-up-box-line"></i></a>
+            <a href="#" class="text-blue-800 text-sm mb-1 hover:underline">Salesforce for startups</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Last page -->
+<div class="bg-blue-900 text-white py-6 px-4 flex flex-col md:flex-row justify-between items-center flex-wrap gap-4">
+    <div class="flex flex-row flex-wrap items-center gap-2 md:gap-4 justify-center md:justify-start">
+        <p class="font-medium text-xl cursor-pointer"><i class="ri-global-line"></i> Worldwide <i class="ri-arrow-down-s-line"></i></p>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Legal</u></a>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Terms of Service</u></a>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Privacy Information</u></a>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Responsible disclosure</u></a>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Trust</u></a>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Contact</u></a>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Cookie preferences</u></a>
+    </div>
+    <div class="flex items-center gap-2 justify-center md:justify-start">
+        <button class="px-3 py-1 text-blue-800 bg-white rounded-lg hover:bg-blue-600 hover:text-white text-sm">Yes/No</button>
+        <a href="#" class="text-sm hover:text-blue-300"><u>Your privacy choice</u></a>
+    </div>
+    <div class="text-sm text-center md:text-left w-full md:w-auto mt-2 md:mt-0">
+        © Copyright 2025 Salesforce, Inc. All rights reserved. Various trademarks held by their respective owners. Salesforce.com Singapore Pte Ltd. 5 Temasek Boulevard #13-01 Suntec Tower 5 Singapore 038985
+    </div>
+</div>
+
+</body>
+</html>
